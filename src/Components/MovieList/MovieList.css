@@ -1,0 +1,6 @@
+/* MovieList.css */
+.movie_list {
+    margin-top: 70px;
+    /* same as navbar height */
+    padding: 20px;
+}
