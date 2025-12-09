@@ -8,7 +8,9 @@ const MovieCard = () => {
     <a href="#" className="movie_card">
       <img src={dummy} alt="Movie Poster" />
     </a>
+    
   );
 };
 
 export default MovieCard;
+
