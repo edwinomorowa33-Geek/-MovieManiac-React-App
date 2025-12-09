@@ -1,6 +1,65 @@
-/* MovieList.css */
 .movie_list {
+    width: 100%;
     margin-top: 70px;
-    /* same as navbar height */
-    padding: 20px;
+    /* push section below navbar */
+    padding: 0 30px;
+    /* same horizontal padding as navbar */
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+
+.movie_list_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 70px;
+    /* matches navbar height */
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.movie_list_heading {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FFD700;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+.movie_list_fs {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.movie_filter {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+.movie_filter_item {
+    cursor: pointer;
+}
+
+.Movie_sorting {
+    padding: 6px 12px;
+    height: 30px;
+    background-color: #1a1a1a;
+    color: white;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: normal;
+    font-family: inherit;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    cursor: pointer;
 }
